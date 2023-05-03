@@ -1,0 +1,23 @@
+[
+  {
+    "nombreAnimal": "Benito",
+    "edad": "2 años",
+    "tipoAnimal": "perro",
+    "color": "blancop",
+    "enfermedad": "vomitos"
+  },
+  {
+    "nombreAnimal": "Ben",
+    "edad": "4 años",
+    "tipoAnimal": "gato",
+    "color": "negro",
+    "enfermedad": "diarrea"
+  },
+  {
+    "nombreAnimal": "Rambo",
+    "edad": "1 año",
+    "tipoAnimal": "COnejo",
+    "color": "Negro",
+    "enfermedad": "Paro cardiaco"
+  }
+]
