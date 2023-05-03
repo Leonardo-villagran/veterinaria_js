@@ -3,11 +3,11 @@
     "nombreAnimal": "Benito",
     "edad": "2 años",
     "tipoAnimal": "perro",
-    "color": "blancop",
+    "color": "blanco",
     "enfermedad": "vomitos"
   },
   {
-    "nombreAnimal": "Ben",
+    "nombreAnimal": "Terminator",
     "edad": "4 años",
     "tipoAnimal": "gato",
     "color": "negro",
@@ -16,8 +16,8 @@
   {
     "nombreAnimal": "Rambo",
     "edad": "1 año",
-    "tipoAnimal": "COnejo",
-    "color": "Negro",
+    "tipoAnimal": "Conejo",
+    "color": "café",
     "enfermedad": "Paro cardiaco"
   }
 ]

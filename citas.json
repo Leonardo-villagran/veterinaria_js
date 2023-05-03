@@ -1,9 +1,23 @@
 [
   {
+    "nombreAnimal": "Benito",
+    "edad": "2 años",
+    "tipoAnimal": "perro",
+    "color": "blanco",
+    "enfermedad": "vomitos"
+  },
+  {
     "nombreAnimal": "Julieta",
     "edad": "6 años",
     "tipoAnimal": "perro",
     "color": "amarillo",
     "enfermedad": "Moquillo"
+  },
+  {
+    "nombreAnimal": "Rambo",
+    "edad": "4 años",
+    "tipoAnimal": "conejo",
+    "color": "café",
+    "enfermedad": "paro cardíaco"
   }
 ]
