@@ -1,16 +1,1 @@
-[
-  {
-    "nombreAnimal": "Benito",
-    "edad": "2 años",
-    "tipoAnimal": "perro",
-    "color": "blanco",
-    "enfermedad": "vomitos"
-  },
-  {
-    "nombreAnimal": "Rambo",
-    "edad": "3 años",
-    "tipoAnimal": "gato",
-    "color": "negro",
-    "enfermedad": "fiebre"
-  }
-]
+[]
