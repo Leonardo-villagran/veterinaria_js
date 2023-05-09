@@ -7,31 +7,10 @@
     "enfermedad": "vomitos"
   },
   {
-    "nombreAnimal": "Julieta",
-    "edad": "6 años",
-    "tipoAnimal": "perro",
-    "color": "amarillo",
-    "enfermedad": "Moquillo"
-  },
-  {
     "nombreAnimal": "Rambo",
-    "edad": "4 años",
-    "tipoAnimal": "conejo",
-    "color": "café",
-    "enfermedad": "paro cardíaco"
-  },
-  {
-    "nombreAnimal": "Chichulin",
-    "edad": "10",
-    "tipoAnimal": "jirafa",
+    "edad": "3 años",
+    "tipoAnimal": "gato",
     "color": "negro",
-    "enfermedad": "covid"
-  },
-  {
-    "nombreAnimal": "Caluga",
-    "edad": "12",
-    "tipoAnimal": "conejo",
-    "color": "blanco",
-    "enfermedad": "Diabetes"
+    "enfermedad": "fiebre"
   }
 ]

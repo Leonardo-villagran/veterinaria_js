@@ -11,7 +11,7 @@ if (!fs.existsSync(citasFilePath)) {
     fs.writeFileSync(citasFilePath, defaultCitasContent);
     console.log('Se generó el archivo citas.json');
 }
-else{
+else {
     console.log('El archivo citas.json existe. No es necesario crear.');
 }
 
@@ -32,7 +32,7 @@ function registrar(nombreAnimal, edad, tipoAnimal, color, enfermedad) {
         // Leer el contenido del archivo citas.json si existe
         if (fs.existsSync(citasFilePath)) {
             const citasData = fs.readFileSync(citasFilePath, 'utf8');
-        //Traspasar el contenido del objeto a Json.
+            //Traspasar el contenido del objeto a Json.
             citas = JSON.parse(citasData);
         }
     } catch (error) {
@@ -63,14 +63,17 @@ function leer() {
             const citasData = fs.readFileSync(citasFilePath, 'utf8');
             const citas = JSON.parse(citasData);
 
-            console.log('Citas registradas:');
-            citas.forEach((tarea)=>{
-                console.log(tarea);
+            if (citas.length === 0) {
+                console.log('No hay citas registradas.');
             }
-
-            )
+            else {
+                console.log('Citas registradas:');
+                citas.forEach((tarea) => {
+                    console.log(tarea);
+                })
+            }
         } else {
-            console.log('No hay citas registradas.');
+            console.log('El archivo de citas no existe.');
         }
     } catch (error) {
         console.error('Error al leer el archivo de citas:', error);

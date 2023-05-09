@@ -12,7 +12,7 @@
 
 * Si el archivo citas.json no existe, se genera a través del módulo File System. Si el archivo ya existe se obtiene su contenido (también a través de File System) y se almacena en un objeto de tipo Json (se debe transformar el texto del archivo de tipo string a Json).
 
-* Se realiza un push al objeto para agregar nuevas citas y se copia el Json (transformado a string) al archivo citas.json.  
+* Se realiza un push al objeto Json para agregar nuevas citas y se copia el Json (transformado a string) al archivo citas.json.  
 
 * Para realizar el proceso de registro de una cita, en la terminal, se debe escribir "node index.js" y a continuación ingresar los argumentos necesarios.
 
@@ -21,3 +21,10 @@
 * En caso de que el primer argumento sea "registrar", se deben incluir los argumentos "nombre del animal", "edad", "tipo de animal", "color", "enfermedad". Cada argumento se parado por un espacio en blanco o entre comillas. 
 
 * En caso de que el argumento sea "leer", no se deben ingresar nuevos argumentos, solo se debe presionar enter y se imprimirán en pantalla las citas registradas dentro de citas.json. 
+
+* Si el argumento es "leer" y no hay datos dentro de citas.json se imprime un mensahe que dice que no hay citas registradas. 
+## Ejemplos de ejecución:
+
+node index.js registrar Rambo "3 años" gato negro fiebre
+
+node index.js leer
