@@ -19,5 +19,19 @@
     "tipoAnimal": "conejo",
     "color": "café",
     "enfermedad": "paro cardíaco"
+  },
+  {
+    "nombreAnimal": "Chichulin",
+    "edad": "10",
+    "tipoAnimal": "jirafa",
+    "color": "negro",
+    "enfermedad": "covid"
+  },
+  {
+    "nombreAnimal": "Caluga",
+    "edad": "12",
+    "tipoAnimal": "conejo",
+    "color": "blanco",
+    "enfermedad": "Diabetes"
   }
 ]

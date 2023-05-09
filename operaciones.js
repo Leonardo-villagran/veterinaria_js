@@ -32,6 +32,7 @@ function registrar(nombreAnimal, edad, tipoAnimal, color, enfermedad) {
         // Leer el contenido del archivo citas.json si existe
         if (fs.existsSync(citasFilePath)) {
             const citasData = fs.readFileSync(citasFilePath, 'utf8');
+        //Traspasar el contenido del objeto a Json.
             citas = JSON.parse(citasData);
         }
     } catch (error) {
@@ -42,7 +43,7 @@ function registrar(nombreAnimal, edad, tipoAnimal, color, enfermedad) {
     citas.push(nuevaCita);
 
     try {
-        // Convertir el array de citas a formato JSON
+        // Convertir el array de citas a formato string
         const citasJSON = JSON.stringify(citas, null, 2);
 
         // Escribir el contenido en el archivo citas.json
@@ -63,7 +64,11 @@ function leer() {
             const citas = JSON.parse(citasData);
 
             console.log('Citas registradas:');
-            console.log(citas);
+            citas.forEach((tarea)=>{
+                console.log(tarea);
+            }
+
+            )
         } else {
             console.log('No hay citas registradas.');
         }
