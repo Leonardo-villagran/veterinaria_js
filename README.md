@@ -27,16 +27,16 @@
 
 node index.js registrar Rambo "3 años" gato negro fiebre
 
-![Alt text](https://github.com/Leonardo-villagran/veterinaria_js/blob/main/images/img_01.png?raw=true)]
+![Alt text](https://github.com/Leonardo-villagran/veterinaria_js/blob/main/images/img_01.png?raw=true)
 
 node index.js leer
 
-![Alt text](https://github.com/Leonardo-villagran/veterinaria_js/blob/main/images/img_02.png?raw=true)]
+![Alt text](https://github.com/Leonardo-villagran/veterinaria_js/blob/main/images/img_02.png?raw=true)
 
 node index.js leer (con el archivo citas.js vacío)
 
-![Alt text](https://github.com/Leonardo-villagran/veterinaria_js/blob/main/images/img_03.png?raw=true)]
+![Alt text](https://github.com/Leonardo-villagran/veterinaria_js/blob/main/images/img_03.png?raw=true)
 
 node index.js leer (sin el archivo citas.js)
 
-![Alt text](https://github.com/Leonardo-villagran/veterinaria_js/blob/main/images/img_04.png?raw=true)]
+![Alt text](https://github.com/Leonardo-villagran/veterinaria_js/blob/main/images/img_04.png?raw=true)
