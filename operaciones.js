@@ -40,7 +40,7 @@ function registrar(nombreAnimal, edad, tipoAnimal, color, enfermedad) {
     }
 
     // Agregar la nueva cita al array de citas
-    citas.push(nuevaCita);
+    citas.push({nuevaCita});
 
     try {
         // Convertir el array de citas a formato string

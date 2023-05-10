@@ -1,7 +1,6 @@
 # veterinaria_js
 
 >"Tarea 1: Veterinaria Js de DesafioLatam para el módulo: Backend con Node y Express (G27):"
-
 ## Características:
 
 * El sistema corresponde a un programa que se ejecuta sobre Node js.
