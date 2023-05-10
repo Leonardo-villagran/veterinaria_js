@@ -1,16 +1,16 @@
 [
   {
-    "nombreAnimal": "Terminator",
-    "edad": "5",
-    "tipoAnimal": "gato",
-    "color": "negro",
-    "enfermedad": "diabetes"
+    "nombreAnimal": "Benito",
+    "edad": "2 años",
+    "tipoAnimal": "perro",
+    "color": "blanco",
+    "enfermedad": "vomitos"
   },
   {
     "nombreAnimal": "Rambo",
-    "edad": "10",
-    "tipoAnimal": "conejo",
-    "color": "blanco",
+    "edad": "3 años",
+    "tipoAnimal": "gato",
+    "color": "negro",
     "enfermedad": "fiebre"
   }
 ]
