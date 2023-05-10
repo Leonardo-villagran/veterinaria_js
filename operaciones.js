@@ -4,7 +4,7 @@ const fs = require('fs');
 
 const citasFilePath = 'citas.json';
 
-// Verificar si el archivo citas.js existe, si no existe, generarlo
+// Verificar si el archivo citas.js existe, si no existe, generarlo.
 
 if (!fs.existsSync(citasFilePath)) {
     const defaultCitasContent = '[]';
@@ -38,9 +38,9 @@ function registrar(nombreAnimal, edad, tipoAnimal, color, enfermedad) {
     } catch (error) {
         console.error('Error al leer el archivo de citas:', error);
     }
-
+ 
     // Agregar la nueva cita al array de citas
-    citas.push({nuevaCita});
+    citas.push(nuevaCita);
 
     try {
         // Convertir el array de citas a formato string
@@ -79,7 +79,7 @@ function leer() {
         console.error('Error al leer el archivo de citas:', error);
     }
 }
-
+//Exportación de funciones
 module.exports = {
     registrar,
     leer

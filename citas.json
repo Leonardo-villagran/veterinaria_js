@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "nombreAnimal": "Terminator",
+    "edad": "5",
+    "tipoAnimal": "gato",
+    "color": "negro",
+    "enfermedad": "diabetes"
+  },
+  {
+    "nombreAnimal": "Rambo",
+    "edad": "10",
+    "tipoAnimal": "conejo",
+    "color": "blanco",
+    "enfermedad": "fiebre"
+  }
+]
