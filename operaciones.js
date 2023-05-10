@@ -38,7 +38,6 @@ function registrar(nombreAnimal, edad, tipoAnimal, color, enfermedad) {
     } catch (error) {
         console.error('Error al leer el archivo de citas:', error);
     }
- 
     // Agregar la nueva cita al array de citas
     citas.push(nuevaCita);
 
